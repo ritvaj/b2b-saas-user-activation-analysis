@@ -42,6 +42,21 @@ Activated users are more likely to upgrade, expand usage, or bring additional te
 Product–Market Fit:
 Difficulty reaching activation often signals unclear value, high friction, or misalignment between user expectations and product design.
 
+## User Funnel Definition
+
+The onboarding and activation journey is modeled as a five-step funnel:
+
+App Open – User opens the application for the first time
+
+Onboarding Screen Viewed – User views initial setup or login screens
+
+Feature Discovery – User explores a core feature of the product
+
+Core Action Started – User initiates a primary workflow or task
+
+Activation – User completes their first meaningful action in the product
+
+
 ---
 
 # taskflowhq-onboarding-activation-funnel-analysis
