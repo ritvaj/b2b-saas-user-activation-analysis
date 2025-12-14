@@ -1,7 +1,7 @@
 
 
 
-# Product Scenario
+## Product Scenario
 
 Product
 TaskFlowHQ is a B2B SaaS productivity tool designed to help individuals and teams plan, track, and complete work using structured workflows and tasks.
@@ -42,7 +42,7 @@ Activated users are more likely to upgrade, expand usage, or bring additional te
 Product–Market Fit:
 Difficulty reaching activation often signals unclear value, high friction, or misalignment between user expectations and product design.
 
-## User Funnel Definition
+### User Funnel Definition
 
 The onboarding and activation journey is modeled as a five-step funnel:
 
@@ -56,6 +56,62 @@ Core Action Started – User initiates a primary workflow or task
 
 Activation – User completes their first meaningful action in the product
 
+
+---
+
+## KPI Framework
+
+This project evaluates onboarding and activation performance using the following core product KPIs.
+
+Activation Rate
+
+Measures the percentage of users who complete their first meaningful action after discovering a feature.
+
+Calculation:
+Activated Users ÷ Feature Discovery Users
+
+Result:
+9 ÷ 201 = 4.5%
+
+Funnel Conversion Rate
+
+Measures how efficiently users progress between key stages of the onboarding funnel.
+
+App Open → Onboarding: 25.8% (603 ÷ 2339)
+
+Onboarding → Feature Discovery: 33.3% (201 ÷ 603)
+
+Feature Discovery → Activation: 4.5% (9 ÷ 201)
+
+Drop-off Rate by Stage
+
+Identifies where users abandon the onboarding journey.
+
+App Open → Onboarding: 74.2% drop-off
+
+Onboarding → Feature Discovery: 66.7% drop-off
+
+Feature Discovery → Core Action: 100% drop-off
+
+Feature Discovery Rate
+
+Measures the proportion of onboarded users who explore at least one core feature.
+
+Calculation:
+Feature Discovery Users ÷ Onboarded Users
+
+Result:
+201 ÷ 603 = 33.3%
+
+Time to Activation
+
+Measures how long activated users take to reach activation after onboarding.
+
+Calculation:
+Activation Timestamp − Onboarding Timestamp
+
+Purpose:
+Used to assess onboarding friction and pacing for users who successfully activate.
 
 ---
 
