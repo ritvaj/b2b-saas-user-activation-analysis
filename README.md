@@ -152,6 +152,12 @@ Day-7 retention is extremely low, indicating that while a small fraction of user
 
 ### Pacing & Friction KPIs
 
+- Median Time (Onboarding → Feature Discovery): **74 seconds**
+- Median Time (Feature Discovery → Activation): **727 seconds (~12 minutes)**
+
+**Interpretation**  
+Users who progress beyond onboarding typically discover a feature quickly, indicating low friction in initial navigation. However, the significantly longer time between feature discovery and activation suggests execution friction, unclear guidance, or insufficient motivation to complete the core action.
+
 
 
 ---
