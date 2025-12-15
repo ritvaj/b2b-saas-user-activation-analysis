@@ -56,7 +56,6 @@ Core Action Started – User initiates a primary workflow or task
 
 Activation – User completes their first meaningful action in the product
 
-
 ---
 
 ## KPI Framework
@@ -182,6 +181,9 @@ taskflowhq-onboarding-activation-funnel-analysis/
 
 
 🔹 Funnel Summary & Drop-off Analysis
+
+
+This analysis focuses on a single onboarding cohort to preserve clean funnel sequencing. In a production setting, the same framework would be extended across rolling cohorts to monitor retention trends.
 
 User Funnel Overview
 
