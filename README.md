@@ -169,3 +169,18 @@ A small number of users reach activation without recorded core-action events, hi
 | Onboarding → Feature Discovery | 33.3% | 66.7% |
 | Feature Discovery → Core Action | 0% | 100% |
 | Feature Discovery → Activation | 4.5% | 95.5% |
+
+
+
+## Retention Metrics
+
+### Day 1 Retention
+Measures the percentage of onboarded users who return the day after onboarding and generate any event.
+
+- Onboarded Users: 603  
+- Day 1 Retained Users: 51  
+- Day 1 Retention Rate: **8.5%**
+
+**Interpretation**  
+A relatively small share of users return the day after onboarding, suggesting limited early habit formation and reinforcing the need to improve activation clarity and early value delivery.
+
