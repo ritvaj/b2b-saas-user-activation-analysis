@@ -63,6 +63,8 @@ Activation – User completes their first meaningful action in the product
 
 This project evaluates onboarding and activation performance using the following core product KPIs.
 
+### Activation & Conversion KPIs
+
 Activation Rate
 
 Measures the percentage of users who complete their first meaningful action after discovering a feature.
@@ -112,6 +114,45 @@ Activation Timestamp − Onboarding Timestamp
 
 Purpose:
 Used to assess onboarding friction and pacing for users who successfully activate.
+
+### Retention Metrics
+
+### Day 1 Retention
+Measures the percentage of onboarded users who return the day after onboarding and generate any event.
+
+- Onboarded Users: 603  
+- Day 1 Retained Users: 51  
+- Day 1 Retention Rate: **8.5%**
+
+**Interpretation**  
+A relatively small share of users return the day after onboarding, suggesting limited early habit formation and reinforcing the need to improve activation clarity and early value delivery.
+
+### Day 3 Retention
+
+Measures the percentage of onboarded users who return three days after onboarding and generate any event.
+
+- Onboarded Users: 603  
+- Day 3 Retained Users: 17  
+- Day 3 Retention Rate: **2.8%**
+
+**Interpretation**  
+Retention drops sharply by Day 3, indicating that most users fail to build a short-term habit after onboarding. This suggests that initial activation alone is not sufficient to sustain engagement, and that the product may lack compelling follow-up value or reminders shortly after first use.
+
+### Day 7 Retention
+
+Measures the percentage of onboarded users who return seven days after onboarding and generate any event.
+
+- Onboarded Users: 603  
+- Day 7 Retained Users: 5  
+- Day 7 Retention Rate: **0.8%**
+
+**Interpretation**  
+Day-7 retention is extremely low, indicating that while a small fraction of users return shortly after onboarding, very few develop sustained engagement over a full week. This suggests weak habit formation and highlights the need for stronger post-activation value reinforcement.
+
+
+### Pacing & Friction KPIs
+
+
 
 ---
 
@@ -172,37 +213,5 @@ A small number of users reach activation without recorded core-action events, hi
 
 
 
-## Retention Metrics
 
-### Day 1 Retention
-Measures the percentage of onboarded users who return the day after onboarding and generate any event.
-
-- Onboarded Users: 603  
-- Day 1 Retained Users: 51  
-- Day 1 Retention Rate: **8.5%**
-
-**Interpretation**  
-A relatively small share of users return the day after onboarding, suggesting limited early habit formation and reinforcing the need to improve activation clarity and early value delivery.
-
-### Day 3 Retention
-
-Measures the percentage of onboarded users who return three days after onboarding and generate any event.
-
-- Onboarded Users: 603  
-- Day 3 Retained Users: 17  
-- Day 3 Retention Rate: **2.8%**
-
-**Interpretation**  
-Retention drops sharply by Day 3, indicating that most users fail to build a short-term habit after onboarding. This suggests that initial activation alone is not sufficient to sustain engagement, and that the product may lack compelling follow-up value or reminders shortly after first use.
-
-### Day 7 Retention
-
-Measures the percentage of onboarded users who return seven days after onboarding and generate any event.
-
-- Onboarded Users: 603  
-- Day 7 Retained Users: 5  
-- Day 7 Retention Rate: **0.8%**
-
-**Interpretation**  
-Day-7 retention is extremely low, indicating that while a small fraction of users return shortly after onboarding, very few develop sustained engagement over a full week. This suggests weak habit formation and highlights the need for stronger post-activation value reinforcement.
 
