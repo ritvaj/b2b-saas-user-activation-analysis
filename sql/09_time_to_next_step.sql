@@ -10,7 +10,7 @@ JOIN `psyched-hook-481007-m9.taskflowhq_analytics.step3_feature_discovery_users`
 WHERE f.feature_discovery_ts > o.onboarding_ts;
 
 
--- Time from Feature Discovery to Activation
+-- Time from Feature Discovery to Activation --> With CTE version
 WITH feature_discovery AS (
   SELECT
     user_pseudo_id,
