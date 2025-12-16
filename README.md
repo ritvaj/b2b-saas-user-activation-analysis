@@ -220,6 +220,27 @@ A small number of users reach activation without recorded core-action events, hi
 | Feature Discovery → Activation | 4.5% | 95.5% |
 
 
+🔹 Segmentation: Activation Speed
 
+To better understand differences among successful users, activated users were segmented based on the time taken to reach activation after onboarding.
+
+Users were classified into:
+
+Fast Activators — users who reached activation quickly after onboarding
+
+Slow Activators — users who required significantly more time to complete activation
+
+Results:
+
+Total Activated Users: 9
+
+Fast Activators: 4 (44%)
+
+Slow Activators: 5 (56%)
+
+Insight:
+While all users in this group ultimately activated, a majority required substantially more time to do so. This suggests that the primary friction lies not in value discovery, but in executing the core action efficiently after discovery.
+
+This segmentation highlights opportunities to streamline post-discovery flows and reduce time-to-value for slower users.
 
 
