@@ -524,3 +524,8 @@ Current data does not indicate these areas as meaningful contributors to activat
 Collectively, these recommendations target the **behavioral root cause of activation delay** and are designed to be incrementally testable without large-scale product redesign.
 
 ---
+chart 1 title:
+### Funnel Overview — User Counts by Step
+
+**Funnel Overview:** Users progress reliably through onboarding and feature discovery, with the primary narrowing occurring at activation. This suggests that early funnel steps are functioning as intended, while activation friction arises after users have already engaged with core features.
+
