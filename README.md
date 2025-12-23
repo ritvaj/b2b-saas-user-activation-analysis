@@ -193,8 +193,8 @@ All recommendations are **incremental, testable**, and aligned with the diagnose
 ## Visuals
 
 *Note: Funnel counts were visualized directly in BigQuery to reflect raw event-level aggregation, while pacing, retention, and experimentation visuals were created using Python for finer control.*
-All generated figures are available in the [`visuals/`](visuals) directory.*
----
+All generated figures are available in the [`visuals/`](visuals) directory.
+
 
 ### Funnel Overview — Drop-off Concentration
 <img src="visuals/funnel_overview.png" width="800"><br><br>
