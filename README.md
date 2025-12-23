@@ -6,7 +6,6 @@ TaskFlowHQ is a simulated **B2B SaaS productivity tool** designed to help indivi
 
 This project analyzes **new-user onboarding and activation behavior** using GA4 event data in BigQuery. The goal is to understand **where and why users fail to activate**, and to translate those findings into **testable product recommendations**.
 
-The analysis focuses on **behavioral hesitation**, not surface-level funnel loss.
 
 ---
 
@@ -31,6 +30,18 @@ This project aims to:
 3. Measure **time-based friction** for users who do activate  
 4. Validate findings through segmentation and experimentation logic  
 5. Translate insights into **practical, testable product recommendations**
+
+---
+
+## Analysis Workflow
+
+1. Ingested GA4 event-level data into BigQuery  
+2. Constructed user-level funnel and activation tables  
+3. Analyzed funnel conversion and time-to-next-step metrics  
+4. Segmented activated users by activation speed  
+5. Evaluated retention using onboarding cohorts  
+6. Simulated an A/B testing framework to validate hypotheses  
+7. Conducted root cause analysis and derived recommendations
 
 ---
 
@@ -218,7 +229,7 @@ Activation conversion differs only marginally between Variant A and Variant B an
 
 ### Synthesis
 
-Taken together, the visuals show that the primary opportunity lies in reducing post-discovery hesitation and accelerating time-to-activation, rather than optimizing earlier funnel entry or post-activation engagement.
+Taken together, the visuals show that the primary opportunity lies in reducing post-discovery hesitation and accelerating time-to-activation, rather than optimizing earlier funnel entry or downstream retention.
 
 
 ---
@@ -227,14 +238,25 @@ Taken together, the visuals show that the primary opportunity lies in reducing p
 
 If this were a live product, next steps would include:
 
-- Testing post-discovery value reinforcement via controlled experiments  
-- Measuring reductions in **time-to-activation**, not just conversion  
-- Extending retention analysis across rolling cohorts  
-- Instrumenting missing core-action events to close data gaps  
+- Testing post-discovery value reinforcement via controlled experiments.  
+- Measuring reductions in **time-to-activation**, not just conversion.  
+- Extending retention analysis across rolling cohorts.  
+- Instrumenting missing core-action events to close data gaps.  
+- Increasing sample size and experiment exposure to enable statistically powered A/B testing.
 
 ---
 
 ## References
+
+- Google Analytics 4 BigQuery Export Schema  
+  https://support.google.com/analytics/answer/7029846
+
+- Google BigQuery SQL Documentation  
+  https://cloud.google.com/bigquery/docs/reference/standard-sql
+
+- Reforge — Activation & Early Retention (Conceptual Reference)  
+  https://www.reforge.com/blog/activation
+
 
 - Google Analytics 4 Event Export Schema  
 - Google BigQuery SQL Documentation  
