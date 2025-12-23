@@ -16,11 +16,11 @@ ax.set_xlim(0, 0.055)
 ax.set_xlabel("Activation Conversion Rate")
 ax.set_title("A/B Test — Activation Conversion Comparison")
 
-# Annotate bars with percentages
+# Annotate bars
 for i, value in enumerate(conversion_rates):
     ax.text(value + 0.001, i, f"{value*100:.2f}%", va="center")
 
-# Optional subtle grid (x-axis only)
+# grid (x-axis only)
 ax.xaxis.grid(True, linestyle="--", alpha=0.3)
 
 # Clean up spines
