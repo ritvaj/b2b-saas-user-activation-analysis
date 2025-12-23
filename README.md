@@ -242,6 +242,7 @@ If this were a live product, next steps would include:
 
 ---
 
-👤 About Me
-I’m Ritvaj Madotra, a data analyst passionate about using Python, SQL, and business analytics to design interpretable, impact-driven solutions.
-📌 Connect: LinkedIn | GitHub
+## 👤 About Me
+
+I’m **Ritvaj Madotra**, a data analyst passionate about using **Python, SQL, and business analytics** to design interpretable, impact-driven solutions.  
+📌 Connect: [LinkedIn](https://www.linkedin.com/in/ritvajmadotra) | [GitHub](https://github.com/ritvaj)
