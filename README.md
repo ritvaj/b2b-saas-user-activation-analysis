@@ -26,17 +26,21 @@ Activation is critical because it represents the moment users transition from ex
 
 ## Objectives
 
+These objectives define the questions the analysis is designed to answer and ensure the work remains decision-focused rather than exploratory.
+
 This project aims to:
 
-1. Quantify where activation drop-off occurs in the onboarding funnel  
-2. Identify whether friction is **structural** (onboarding/navigation) or **behavioral** (hesitation, uncertainty)  
-3. Measure **time-based friction** for users who do activate  
-4. Validate findings through segmentation and experimentation logic  
-5. Translate insights into **practical, testable product recommendations**
+- Quantify where activation drop-off occurs in the onboarding funnel  
+- Identify whether friction is structural (onboarding or navigation) or behavioral (hesitation, uncertainty)  
+- Measure time-based friction for users who do activate  
+- Validate findings through segmentation and experimentation logic  
+- Translate insights into practical, testable product recommendations  
 
 ---
 
 ## Analysis Workflow
+
+The workflow below outlines how raw event data was progressively transformed into behavioral insights and product recommendations.
 
 1. Ingested GA4 event-level data into BigQuery  
 2. Constructed user-level funnel and activation tables  
