@@ -2,22 +2,25 @@
 
 ## Overview
 
-TaskFlowHQ is a simulated **B2B SaaS productivity tool** designed to help individuals and teams plan, track, and complete work through structured tasks and workflows.
+This project examines how new users move from initial exploration to meaningful usage in a B2B SaaS product, and where that journey breaks down.
 
-This project analyzes **new-user onboarding and activation behavior** using GA4 event data in BigQuery. The goal is to understand **where and why users fail to activate**, and to translate those findings into **testable product recommendations**.
+TaskFlowHQ is a simulated B2B SaaS productivity tool designed to help individuals and teams plan, track, and complete work through structured tasks and workflows.
 
+The analysis focuses on new-user onboarding and activation behavior using GA4 event data in BigQuery, with the goal of identifying why users fail to activate and translating those findings into testable product recommendations.
 
 ---
 
 ## Business Problem
 
-Despite strong top-of-funnel entry, a large proportion of users fail to complete their **first meaningful action**, limiting:
+This analysis is motivated by a common SaaS challenge: users enter the product but fail to convert early interest into sustained value.
+
+Despite strong top-of-funnel entry, a large proportion of users fail to complete their first meaningful action, limiting:
 
 - user retention  
 - product adoption  
 - long-term revenue potential  
 
-Activation is critical because it represents the moment users transition from exploration to **real value realization**. Persistent failure to activate typically signals **unclear value, perceived effort, or decision friction**, rather than acquisition issues.
+Activation is critical because it represents the moment users transition from exploration to real value realization. Persistent failure to activate typically signals unclear value, perceived effort, or decision friction, rather than acquisition issues.
 
 ---
 
