@@ -132,6 +132,7 @@ Activated users were segmented based on **time-to-activation**.
 
 **Key Insight:**  
 Slow Activators do not struggle with onboarding or navigation. Their friction emerges **after feature discovery**, indicating hesitation rather than inability.
+Notably, prolonged hesitation among users who eventually activate suggests that similar post-discovery friction may be preventing other users from activating at all, making this stage a high-leverage intervention point.
 
 ---
 
