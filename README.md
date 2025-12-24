@@ -60,8 +60,6 @@ A new user:
 
 Activation represents the moment a user moves from passive exploration to active usage, demonstrating that the product can be applied to their own work.
 
----
-
 ### Funnel Steps
 
 | Step | Description |
@@ -147,7 +145,7 @@ Notably, prolonged hesitation among users who eventually activate suggests that 
 
 ## A/B Testing: Validating Post-Discovery Hesitation
 
-A **simulated A/B test** demonstrates how post-discovery interventions would be validated in production.
+An A/B test framework is used to evaluate whether reinforcing value post-discovery increases activation.
 
 - **Hypothesis:** Reinforcing value post-discovery increases activation  
 - **Null Hypothesis:** No difference between variants  
@@ -157,7 +155,7 @@ A **simulated A/B test** demonstrates how post-discovery interventions would be 
 **Result:**  
 The null hypothesis was not rejected. With only 9 total activations, the experiment is **underpowered** and results are **inconclusive**, not negative.
 
-This demonstrates **correct experimental reasoning**, not forced conclusions.
+In this analysis, variants were assigned using a deterministic split (odd and even) to illustrate evaluation logic. In a production setting, users would be randomly assigned to a control experience and a modified post-discovery experience, with activation compared across the two variants over a fixed exposure window.
 
 ---
 
