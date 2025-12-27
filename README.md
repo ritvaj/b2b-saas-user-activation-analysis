@@ -42,7 +42,7 @@ This project aims to:
 
 The workflow below outlines how raw event data was progressively transformed into behavioral insights and product recommendations.
 
-1. Ingested GA4 event-level data into BigQuery  
+1. Worked with raw GA4 event-level tables in BigQuery
 2. Constructed user-level funnel and activation tables  
 3. Analyzed funnel conversion and time-to-next-step metrics  
 4. Segmented activated users by activation speed  
