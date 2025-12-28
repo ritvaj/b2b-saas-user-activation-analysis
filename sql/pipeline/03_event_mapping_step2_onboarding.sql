@@ -1,6 +1,5 @@
-Out of all users who opened the app, 603 users proceeded to view an onboarding screen during their first session.
-
--- Step 2: Onboarding Screen Viewed (user-level)
+-- Step 2: Onboarding (user-level)
+-- This query captures the first valid onboarding page view per session starter, occurring after session start.
 
 CREATE OR REPLACE TABLE
 `psyched-hook-481007-m9.taskflowhq_analytics.step2_onboarding_users` AS
@@ -20,3 +19,5 @@ WHERE e.event_name = 'page_view'
   )
   AND e.event_timestamp > s.session_start_ts
 GROUP BY s.user_pseudo_id;
+
+-- Out of 2339 session starters, 603 users reached onboarding.
