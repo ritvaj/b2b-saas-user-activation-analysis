@@ -137,7 +137,7 @@ This section defines the core metrics used to evaluate activation quality, user 
 - Median time (Onboarding → Feature Discovery): **74s**  
 - Median time (Feature Discovery → Activation): **727s (~12 min)**
 
-The sharp increase in time after feature discovery signals hesitation rather than navigational friction.
+The steep user drop-off between feature discovery and activation, combined with the sharp increase in time after feature discovery among successful users, suggests that decision hesitation is not only slowing conversion but also driving abandonment at this stage.
 
 ### Retention (Onboarding Cohort)
 
@@ -186,7 +186,9 @@ In this analysis, variants were assigned using a deterministic split (odd and ev
 This section isolates the underlying cause of activation drop-off using observed user behavior.
 
 ### Primary Finding
+
 Activation friction is driven by: a sharp drop-off between feature discovery and activation, and prolonged hesitation among users who do eventually activate.
+**Hypothesis**: The same post-discovery hesitation that delays activation for some users is also causing many others to drop off entirely, contributing directly to early churn.
 
 Retention analysis reinforces the severity of this friction. Users who fail to activate quickly also fail to return, with onboarding cohort retention dropping to 8.5% on Day 1 and below 1% by Day 7. This indicates that unresolved post-discovery hesitation does not merely delay activation, but contributes directly to early disengagement and weak habit formation.
 
@@ -265,8 +267,7 @@ Activation conversion differs only marginally between Variant A and Variant B an
 
 ### Synthesis
 
-Taken together, the visuals show that the primary opportunity lies in reducing post-discovery hesitation and accelerating time-to-activation, rather than optimizing earlier funnel entry or downstream retention.
-
+Together, these visuals indicate that post-discovery friction manifests both as immediate drop-off and as prolonged hesitation among users who eventually activate, with downstream impact on early retention.
 
 ---
 
