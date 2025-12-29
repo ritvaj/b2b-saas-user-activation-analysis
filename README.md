@@ -186,7 +186,9 @@ In this analysis, variants were assigned using a deterministic split (odd and ev
 This section isolates the underlying cause of activation drop-off using observed user behavior.
 
 ### Primary Finding
-Activation friction is driven by **post-discovery hesitation**, not early funnel drop-off.
+Activation friction is driven by: a sharp drop-off between feature discovery and activation, and prolonged hesitation among users who do eventually activate.
+
+Retention analysis reinforces the severity of this friction. Users who fail to activate quickly also fail to return, with onboarding cohort retention dropping to 8.5% on Day 1 and below 1% by Day 7. This indicates that unresolved post-discovery hesitation does not merely delay activation, but contributes directly to early disengagement and weak habit formation.
 
 ### What the Data Shows
 - Users reach onboarding and feature discovery reliably  
@@ -205,7 +207,8 @@ A **decision-confidence and value-clarity gap** immediately after feature discov
 
 ## Recommendations
 
-These recommendations target the post-discovery hesitation identified in the analysis and are ordered by expected impact.
+These recommendations target the post-discovery friction identified in the analysis, where sharp drop-off and prolonged hesitation converge, and are ordered by expected impact.
+Because post-discovery hesitation both suppresses activation and accelerates early churn, interventions at this stage have disproportionate impact. Improving value clarity and decision confidence immediately after feature discovery addresses not only conversion loss, but also weak early retention.
 
 ### Priority 1: Reinforce Value Immediately After Discovery
 - Explicitly communicate outcomes and benefits  
