@@ -6,7 +6,7 @@ This project examines how new users move from initial exploration to meaningful 
 
 TaskFlowHQ is a simulated B2B SaaS productivity tool designed to help individuals and teams plan, track, and complete work through structured tasks and workflows.
 
-The analysis focuses on new-user onboarding and activation behavior using GA4 event data in BigQuery, with the goal of identifying why users fail to activate and translating those findings into testable product recommendations.
+The analysis focuses on new-user onboarding and activation behavior using GA4 event data in BigQuery, diagnosing activation drop-off and post-discovery hesitation, and examining how the two interact to suppress conversion and early retention.
 
 ---
 
@@ -20,7 +20,7 @@ Despite strong top-of-funnel entry, a large proportion of users fail to complete
 - product adoption  
 - long-term revenue potential  
 
-Activation is critical because it represents the moment users transition from exploration to real value realization. Persistent failure to activate typically signals unclear value, perceived effort, or decision friction, rather than acquisition issues.
+Activation is critical because it represents the moment users transition from exploration to real value realization. Persistent failure to activate typically reflects unclear value, perceived effort, or decision friction, rather than acquisition or onboarding deficiencies.
 
 ---
 
@@ -224,7 +224,7 @@ Because post-discovery hesitation both suppresses activation and accelerates ear
 - Provide a single, explicit recommended action  
 - Reduce ambiguity between discovery and execution  
 
-All recommendations are **incremental, testable**, and aligned with the diagnosed root cause.
+All recommendations are incremental, testable through controlled experiments, and directly target the post-discovery friction identified in the analysis.
 
 ---
 
@@ -267,8 +267,7 @@ Activation conversion differs only marginally between Variant A and Variant B an
 
 ### Synthesis
 
-Together, these visuals indicate that post-discovery friction manifests both as immediate drop-off and as prolonged hesitation among users who eventually activate, with downstream impact on early retention.
-
+Taken together, the visuals show that the primary opportunity lies after feature discovery, where sharp drop-off and prolonged hesitation combine to suppress activation and undermine early retention.
 ---
 
 ## Future Work / Next Steps
