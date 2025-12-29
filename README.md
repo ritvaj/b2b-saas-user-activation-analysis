@@ -270,7 +270,10 @@ Retention declines sharply across Day 1, Day 3, and Day 7, with fewer than 1% of
 Activation conversion differs only marginally between Variant A and Variant B and is not statistically significant. Given the absence of a real product intervention and limited sample size, this result is expected and demonstrates correct experimental interpretation rather than over-reading random variation.
 
 ### Final Insight
-Taken together, the visuals show that the primary opportunity lies after feature discovery, where sharp drop-off and prolonged hesitation combine to suppress activation and undermine early retention.
+
+Users are able to reach onboarding and feature discovery, but a sharp drop-off occurs immediately afterward. Among the small group who do activate, long delays between feature discovery and activation point to hesitation rather than usability or navigation issues. 
+Early retention also falls rapidly after onboarding, reinforcing that unresolved activation friction prevents users from forming an initial habit. 
+Together, the funnel drop-off, prolonged activation delays, and weak early retention indicate that post-discovery decision uncertainty drives both delayed activation and outright abandonment.
 
 ---
 
