@@ -269,9 +269,7 @@ The intent is to make value visible and immediate, reducing uncertainty right af
 
 **Goal:** Lower the psychological cost of saying “yes” to activation.
 
-Examples: 
-- Explicitly signal reversibility with copy such as:  
-  *“Cancel anytime. No setup risk.”*  
+Examples:  
 - Frame activation as a trial rather than a decision, e.g.  
   *“Try your first workflow”* instead of *“Start using TaskFlowHQ”*
 
@@ -287,8 +285,6 @@ Examples:
   *“Most users start here”*
 
 The intent is to reduce decision paralysis by clearly signaling what to do next.
-
----
 
 All recommendations directly address the post-discovery decision-confidence and value-clarity gap identified in the analysis and are suitable for validation through controlled experiments.
 
