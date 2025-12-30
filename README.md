@@ -60,44 +60,44 @@ The workflow below outlines how raw GA4 event data was translated into a B2B Saa
 
 ---
 
-## User Journey & Funnel Definition
+## User Journey, Funnel Definition and Event Mapping
 
-This section clarifies how a new user experiences the product and where we draw the line for meaningful activation.
+This section clarifies how a new user experiences TaskFlowHQ and how abstract behavior is translated into measurable funnel steps for analysis.
 
 ### User Journey
 
 A typical new user flow looks like this:
 
-1. Opens TaskFlowHQ  
+1. User opens TaskFlowHQ  
 2. Proceeds through onboarding or setup screens  
 3. Explores at least one core feature  
 4. Attempts to complete a task or workflow  
 5. Successfully completes a first meaningful action (activation)
 
-This sequence represents the minimum path required for a user to understand the product’s value.
+This sequence represents the minimum path required for a user to experience and understand the product’s value.
 
 ### Activation Definition
 
-Activation is defined as the point where a user shifts from passive exploration to intentional use.  
-At this moment, the user demonstrates that TaskFlowHQ can be applied to a real task, not just browsed or tested superficially.
+Activation is defined as the point at which a user moves from passive exploration to intentional use.
+At this stage, the user demonstrates that TaskFlowHQ can be applied to a real task, rather than being casually browsed or tested.
 
 ### Funnel Steps
 
-This section translates the abstract user journey into concrete, measurable funnel steps used for analysis.
+The user journey is operationalized into the following measurable funnel steps:
 
 | Step | Description |
 |---|---|
-| App Open | User opens the app |
-| Onboarding Screen Viewed | Initial setup or login screens |
+| App Open | User opens the application |
+| Onboarding Viewed | Initial setup or login screens |
 | Feature Discovery | User explores a core feature |
 | Activation | User completes first meaningful action |
 
 **Funnel refinement note:**  
-An intermediate “Start Core Action” step was initially considered but removed after exploratory analysis showed it added no behavioral signal and introduced systematic NULLs. The refined funnel reflects observed user behavior rather than assumed intent.
+An intermediate “Start Core Action” step was initially considered. Exploratory analysis showed that almost no users meaningfully passed through this step, and it did not provide additional behavioral signal. The step was removed to ensure the funnel reflects observed user behavior rather than assumed intent.
 
 #### GA4 Event Mapping (Reference)
 
-This table serves as a compact reference showing how raw GA4 events are translated into product-level funnel steps.
+The table below shows how raw GA4 events were mapped to product-level funnel steps used in the analysis.
 
 | GA4 Event | Product Interpretation |
 |----------|------------------------|
