@@ -341,8 +341,7 @@ If TaskFlowHQ were a live product, this analysis would be extended in the follow
 - Run controlled experiments to test post-discovery value reinforcement and measure impact on both activation rate and time-to-activation.  
 - Evaluate whether faster activation causally improves early retention by comparing retention curves for activated vs non-activated users.
 - Expand retention analysis beyond a single onboarding cohort to rolling and feature-based cohorts.
-- Instrument missing or ambiguous core-action events to improve activation measurement fidelity. 
-- Increase experiment exposure and sample size to enable statistically powered A/B testing and reliable inference.
+- Increase sample size to enable statistically accurate A/B testing and reliable inference.
 
 ---
 
