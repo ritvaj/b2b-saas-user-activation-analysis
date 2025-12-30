@@ -158,7 +158,7 @@ Short-term retention rates for users who reached onboarding:
 - Day 3: **2.8%**  
 - Day 7: **0.8%**
 
-Retention declines sharply within the first few days, suggesting weak early habit formation and limited short-term stickiness following initial product exposure.
+Retention declines sharply within the first few days, indicating that users who do not activate are unlikely to return and re-engage after initial exposure.
 
 ---
 
