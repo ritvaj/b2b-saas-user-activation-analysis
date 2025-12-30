@@ -205,7 +205,7 @@ Users were deterministically split for analytical demonstration:
 
 - Variant A: 4.9%  
 - Variant B: 4.0%  
-- Absolute lift: +0.9 percentage points  
+- Absolute lift: +0.9 percentage points (Variant A gets about 1 extra activated user per 100)
 - Relative lift: ~+22%
 
 A chi-square test (χ² = 0.087, df = 1, p = 0.77) failed to reject the null hypothesis. With only 9 total activations, the result is underpowered, and the observed difference is driven by a single user.
