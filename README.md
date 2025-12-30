@@ -52,7 +52,7 @@ The workflow below outlines how raw GA4 event data was translated into a B2B Saa
 3. Constructed a user-level activation funnel by anchoring each step to the first valid event timestamp after the previous step.
 4. Measured conversion and drop-off at each funnel stage to identify where users disengage.
 5. Analyzed time-to-next-step metrics to detect post-onboarding hesitation among users who discovered a feature or activated.
-6. Evaluated early retention for the onboarding cohort to assess whether unresolved activation friction leads to weak habit formation and early churn.
+6. Evaluated early retention for the onboarding cohort to understand whether non-activation represents a temporary delay or an early disengagement.
 7. Segmented activated users by activation speed to separate usability issues from decision friction.
 8. Simulated A/B testing framework to demonstrate how post-discovery improvements could be validated.
 9. Created supporting visuals to clearly communicate funnel behavior, hesitation patterns, retention decay, and experimental outcome.
