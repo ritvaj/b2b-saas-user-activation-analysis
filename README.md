@@ -22,7 +22,9 @@ Despite strong top-of-funnel entry, a large proportion of users fail to complete
 - product adoption  
 - long-term revenue potential  
 
-Activation is critical because it represents the moment users transition from exploration to real value realization. Persistent failure to activate typically reflects unclear value, perceived effort, or decision friction, rather than acquisition or onboarding deficiencies.
+Activation represents the point at which users are expected to experience real value. However, failure to reach this stage can arise from multiple causes, including onboarding friction, unclear value communication, or user hesitation and decision uncertainty. The relative impact of these factors is unclear.
+
+This project focuses on identifying where activation breakdown occurs and isolating the primary drivers behind it to inform focused, testable product improvements.
 
 ---
 
