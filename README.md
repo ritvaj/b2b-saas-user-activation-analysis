@@ -47,7 +47,7 @@ This project aims to:
 
 The workflow below outlines how raw GA4 event data was translated into a B2B SaaS activation diagnosis and product recommendations:
 
-1. Started with raw GA4 event-level tables in BigQuery to understand what user actions were available.
+1. Started with raw GA4 event-level tables in BigQuery to understand what user action events were available.
 2. Audited and validated events, then mapped GA4 events to B2B SaaS user actions (app open, onboarding, feature discovery, activation).
 3. Constructed a user-level activation funnel by anchoring each step to the first valid event timestamp after the previous step.
 4. Measured conversion and drop-off at each funnel stage to identify where users disengage.
