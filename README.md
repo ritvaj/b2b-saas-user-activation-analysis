@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="assets/project_banner.jpg" width="600" alt="Fraud-signal banner — Transaction Behavior Analytics">
+</p>
 <h1 align="center">TaskFlowHQ: Diagnosing Drop-Off & Hesitation Before Activation</h1>
 
 
